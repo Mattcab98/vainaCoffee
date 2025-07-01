@@ -1,0 +1,16 @@
+.header {
+    width: 100dvw;
+    height: 200px;
+}
+
+.nav {
+    width: 100dvw;
+    height: 100%;
+    background-color: var(--color2);
+}
+
+.burger {
+    color: red;
+    font-size: 2rem;
+    
+}

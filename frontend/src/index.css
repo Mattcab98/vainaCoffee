@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+:root {
+  --color1: #244837;
+  --color2: #ffb22c;
+  --color3: #d06224;
+  --color4: #854836;
+  --color5: #cbb194;
+  --color6: #f7f7f7;
+  
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+  background-color: var(--color1);
+}
