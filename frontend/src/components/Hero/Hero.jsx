@@ -1,4 +1,4 @@
-import './hero.css';
+import './Hero.css';
 import { heroImages } from './HeroImages'
 import { useState, useEffect } from 'react';
 import {motion, AnimatePresence } from 'framer-motion';
