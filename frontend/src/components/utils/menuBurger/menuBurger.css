@@ -1,0 +1,39 @@
+.btn__burger {
+    color: var(--color6);
+    font-size: 1.7rem;
+    position: relative;
+    z-index: 101;
+}
+
+.menu__responsive {
+    width: 100dvw;
+    height: 100dvh;
+    position: absolute;
+    top: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color6);
+    background-color: var(--color1);
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 100;
+}
+
+.menu__responsive.active {
+    display: flex;
+}
+
+.container__a {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 120px;
+}
+
+.container__icons {
+    display: flex;
+    gap: 80px;
+}
+

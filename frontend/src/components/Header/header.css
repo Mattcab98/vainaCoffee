@@ -1,16 +1,18 @@
-.header {
-    width: 100dvw;
-    height: 200px;
-}
-
 .nav {
     width: 100dvw;
-    height: 100%;
-    background-color: var(--color2);
+    height: 100px;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 10px 5px 5px 3px rgba(34, 34, 34, 0.205);
+    z-index: 100;
 }
 
-.burger {
-    color: red;
-    font-size: 2rem;
-    
+.container__logo {
+    width: 130px;
+}
+
+.nav__links {
+    display: none;
 }
