@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import './menuBurger.css';
 import { FaBars, FaUser } from 'react-icons/fa';
 import { FaCartShopping } from 'react-icons/fa6';
+import { IoMdClose } from 'react-icons/io';
 
 const MenuBurger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,10 +38,10 @@ const MenuBurger = () => {
       <button
         className={`btn__burger ${isOpen ? 'active' : ''}`}
         onClick={handleSubmit}>
-        <FaBars />
+        {isOpen ? <IoMdClose/> : <FaBars/>}
       </button>
 
-      <div className="menu__responsive" ref={menuRef}>
+      <div className='menu__responsive' ref={menuRef}>
         <div className="container__a">
           <a href="#">Home</a>
           <a href="#">Products</a>

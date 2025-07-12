@@ -8,7 +8,7 @@
 .menu__responsive {
     width: 100dvw;
     height: 100dvh;
-    position: absolute;
+    position: fixed;
     top: 0;
     display: none;
     flex-direction: column;

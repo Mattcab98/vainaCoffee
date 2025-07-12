@@ -1,0 +1,11 @@
+.container__featuredProducts {
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;           
+    overflow-y: hidden;        
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+}
+
