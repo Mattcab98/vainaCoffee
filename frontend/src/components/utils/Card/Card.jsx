@@ -5,7 +5,7 @@ const Card = ({ imageUrl, title, description, price}
 ) => {
     return (
         <>
-            <div className="card">
+            <div className="card" tabIndex='0'>
                 <div className="container__imgProduct">
                     <img src={imageUrl} alt={title} className='card__img'/>
                 </div>

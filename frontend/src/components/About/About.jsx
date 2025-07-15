@@ -79,7 +79,7 @@ const About = () => {
         Es esencia, cultura y memoria.
         Porque en cada grano hay algo que nos trasciende.
         <br></br>
-        Así somos. Así es Vaina.
+        Así somos. Así es <span>Vaina.</span>
       </p>
     </section>
   );

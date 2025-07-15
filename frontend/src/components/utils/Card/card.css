@@ -59,11 +59,20 @@
     font-weight: 500;
 }
 
-.card__car {
-    /* display: none; */
-}
-
 .card__price:hover, .card__car:hover {
     opacity: .9;
     transition: all ease 1s;
+}
+
+.card {
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(111, 78, 55, 0.774); /* sombra suave café */
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(111, 78, 55, 0.2);
 }

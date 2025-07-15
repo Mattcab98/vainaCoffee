@@ -1,0 +1,15 @@
+.button__action {
+    border-radius: 20px;
+    color: var(--color6);
+    background-color: var(--color2);
+    border: none;
+    box-shadow: 5px 1px 10px #18181871;
+    transition: all ease-in-out .5s;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.button__action:hover {
+    background-color: var(--color1);
+    transition: all ease-in-out .5s;
+}

@@ -27,21 +27,6 @@
     text-shadow: 2px 2px 5px #181818b0;
 }
 
-.txt__hero button {
-    border-radius: 20px;
-    background-color: var(--color2);
-    border: none;
-    box-shadow: 5px 1px 10px #18181871;
-    transition: all ease-in-out .5s;
-    padding: 8px;
-    font-size: 1.2rem;
-}
-
-.txt__hero button:hover {
-    background-color: var(--color1);
-    transition: all ease-in-out .5s;
-}
-
 .container__hero img {
     object-fit: cover;
     width: 100%;

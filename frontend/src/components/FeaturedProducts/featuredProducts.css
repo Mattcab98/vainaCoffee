@@ -1,11 +1,21 @@
 .container__featuredProducts {
-    padding: 20px;
+    width: 100%;
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.container__featuredProducts-card {
     display: flex;
     flex-direction: row;
     overflow-x: auto;           
     overflow-y: hidden;        
     scroll-snap-type: x mandatory;
+    scrollbar-width: none;
     gap: 20px;
 }
-
+.container__featuredProducts .button__action {
+    scale: .7;
+}

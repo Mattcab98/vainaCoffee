@@ -1,0 +1,27 @@
+.card__category {
+  position: relative;
+  width: 100dvw;
+  height: 150px;
+  border: none;
+  cursor: pointer;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  /* opcional para mejor contraste */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.gradient__videoTxt {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}

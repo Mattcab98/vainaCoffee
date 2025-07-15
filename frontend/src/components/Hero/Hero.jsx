@@ -1,5 +1,9 @@
 import './Hero.css';
+
+
 import { heroImages } from './HeroImages'
+import { ButtonAction } from '../utils/buttonAction/ButtonAction';
+
 import { useState, useEffect } from 'react';
 import {motion, AnimatePresence } from 'framer-motion';
 
@@ -47,7 +51,7 @@ const Hero = () => {
                 <div className="txt__hero">
                     <h1>Un aroma en cada grano, una historia en cada taza.</h1>
                     <h2>Momentos que se disfrutan en cada sorbo, aromas que despiertan recuerdos y sabores que invitan a volver.</h2>
-                    <button>Conoce nuestras variedades</button>
+                    <ButtonAction nameButton={'Conoce nuestras variedades'}/>
                 </div>
             </div>
         </>
