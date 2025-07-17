@@ -16,7 +16,7 @@ const Category = () => {
           backgroundImage="/images/category/backCategoryCafeteras.jpg"
         />
         <CardCategory
-          nameCategory="CAFETERAS"
+          nameCategory="HOME DECO"
           className="typeCategory__coffee"
           backgroundImage="/images/category/backCategoryDeco.jpg"
         />

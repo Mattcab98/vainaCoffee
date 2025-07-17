@@ -10,9 +10,9 @@ const TypewriterText = ({ text, speed = 0.095 }) => {
 
   const letters = Array.from(text);
 
-// animacion framer Motion Typescripter
+  // animacion framer Motion Typescripter
 
-//Contenedor que almacena todas las letras
+  //Contenedor que almacena todas las letras
 
   const container = {
     hidden: { opacity: 1 },
@@ -24,7 +24,7 @@ const TypewriterText = ({ text, speed = 0.095 }) => {
     },
   };
 
-// Letras individuales
+  // Letras individuales
 
   const child = {
     hidden: { opacity: 0 },
@@ -64,24 +64,29 @@ const TypewriterText = ({ text, speed = 0.095 }) => {
 
 const About = () => {
   return (
+
     <section className='container__about'>
-      <h2>
-        Vaina es café, pero también <span><TypewriterText text="es historia."/></span>
-      </h2>
-      <p>
-        Somos Matias y Victoria.
-        Amigos, familia, herederos de historias que nacían junto a una taza de café.
+      <div className="txt__about">
+        <h2>
+          Vaina es café, pero también <span><TypewriterText text="es historia." /></span>
+        </h2>
+        <p>
+          Somos Matias y Victoria.
+          Amigos, familia, herederos de historias que nacían junto a una taza de café.
 
-        Vaina nace del amor por nuestras raíces,
-        del valor de lo simple:
-        una charla, un aroma, un recuerdo.
+          Vaina nace del amor por nuestras raíces,
+          del valor de lo simple:
+          una charla, un aroma, un recuerdo.
 
-        Es esencia, cultura y memoria.
-        Porque en cada grano hay algo que nos trasciende.
-        <br></br>
-        Así somos. Así es <span>Vaina.</span>
-      </p>
+          Es esencia, cultura y memoria.
+          Porque en cada grano hay algo que nos trasciende.
+          <br></br>
+          Así somos. Así es <span>Vaina.</span>
+        </p>
+      </div>
     </section>
+
+
   );
 };
 

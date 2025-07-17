@@ -23,7 +23,7 @@ const FeaturedProducts = () => {
               />
             ))}
         </div>
-        <ButtonAction nameButton={'Ver más productos'} className='hola' />
+        <ButtonAction nameButton={'Ver más productos'} />
       </div>
 
     </>

@@ -1,20 +1,9 @@
-
-.container__about > * {
-    z-index: 1;
-}
-
 .container__about {
     position: relative;
     width: 100dvw;
-    height: 400px;
+    height: 100%;
     color: var(--color6);
     text-align: center;
-    padding: 12px;
-    overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .container__about::before {
@@ -32,17 +21,27 @@
     background-size: cover;
 
     filter: blur(2px);
-    z-index: 0;
+    z-index: -1;
 }
 
-.container__about h2 {
-    font-size: 2rem;
+.txt__about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 50px 20px;
+    z-index: 1;
+}
+
+.txt__about h2 {
+    /* width: 300px; */
+    font-size: 2.6rem;
     font-weight: 600;
     text-shadow: 2px 2px 3px rgba(33, 73, 33, 0.37);
 
 }
 
-.container__about span {
+.txt__about span {
     color: var(--color2)
 }
 

@@ -4,7 +4,8 @@
     border-radius: 16px;
     flex: 0 0 auto;         
     scroll-snap-align: center;
-    background-color: var(--color1);
+    background-color: rgb(235, 235, 235);
+    border: solid 1px var(--color1);
     display: grid;
     grid-template-rows: 60% auto auto auto;
 }
@@ -15,7 +16,7 @@
 }
 
 .card img {
-    border-radius: 16px 16px 5px 5px;
+    border-radius: 16px 16px 0px 0px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -25,7 +26,7 @@
 .card__title, .card__description, .card__price {
     font-family: var(--font-primary);
     font-weight: 500;
-    color: var(--color6);
+    color: var(--color1);
     
     text-align: center;
     justify-self: center;
@@ -70,9 +71,9 @@
 
 .card:focus {
   outline: none;
-  box-shadow: 0 0 10px rgba(111, 78, 55, 0.774); /* sombra suave café */
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.315); /* sombra suave café */
 }
 
 .card:hover {
-  box-shadow: 0 0 10px rgba(111, 78, 55, 0.2);
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.315); /* sombra suave café */
 }

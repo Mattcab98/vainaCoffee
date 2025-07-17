@@ -1,18 +1,18 @@
-.container__hero, .txt__hero {
+.container__hero {
     width: 100dvw;
-    height: 80dvh;
+    height: 500px;
     position: relative;
 }
 
 .txt__hero {
-    padding: 20px;
+    width: 100dvw;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-evenly;
     z-index: 2;
     font-family: var(--font-primary);  
     color: var(--color6);  
@@ -21,9 +21,10 @@
 
 .txt__hero h1 {
     color: var(--color2);
-    font-size: 2.2rem;
+    font-size: 3rem;
+    padding: 20px 20px 0px 20px;
     font-weight: 800;
-    line-height: 1.4;
+    line-height: 1.3;
     text-shadow: 2px 2px 5px #181818b0;
 }
 
@@ -40,5 +41,9 @@
     top: 0;
     left: 0;
     z-index: 1;
-    background: linear-gradient(to top, var(--color1), rgba(25, 49, 38, 0.514), transparent);
+    background: linear-gradient(to top, var(--color1), rgba(25, 49, 38, 0.521), transparent);
+}
+
+.container__hero .button__action{
+    scale: .85;
 }

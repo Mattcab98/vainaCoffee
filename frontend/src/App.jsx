@@ -4,6 +4,8 @@ import { Hero } from './components/Hero/Hero';
 import { FeaturedProducts } from './components/FeaturedProducts/FeaturedProducts';
 import { Category } from './components/category/Category';
 import { About } from './components/About/About';
+import { Footer } from './components/Footer/Footer';
+
 
 
 function App() {
@@ -12,9 +14,10 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
-      <FeaturedProducts/>
-      <About/>
-      <Category/>
+      <About />
+      <FeaturedProducts />
+      <Category />
+      <Footer/>
     </>
   )
 }
