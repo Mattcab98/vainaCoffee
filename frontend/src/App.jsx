@@ -1,7 +1,7 @@
 import './App.css';
 import { Header } from './components/Header/header';
 import { Hero } from './components/Hero/Hero';
-import { FeaturedProducts } from './components/FeaturedProducts/FeaturedProducts';
+// import { FeaturedProducts } from './components/FeaturedProducts/FeaturedProducts';
 import { Category } from './components/category/Category';
 import { About } from './components/About/About';
 import { Footer } from './components/Footer/Footer';
@@ -15,7 +15,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <About />
-      <FeaturedProducts />
+      {/* <FeaturedProducts /> */}
       <Category />
       <Footer/>
     </>

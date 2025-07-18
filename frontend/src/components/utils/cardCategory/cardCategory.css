@@ -18,10 +18,21 @@
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-.gradient__videoTxt {
+.gradient__Txt {
   position: relative;
   z-index: 1;
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
+}
+
+@media (min-width: 720px) {
+    .card__category {
+      height: 200px;
+    }
+}
+@media (min-width: 900px) {
+    .card__category {
+      height: 400px;
+    }
 }

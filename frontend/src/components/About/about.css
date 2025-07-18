@@ -1,7 +1,7 @@
 .container__about {
     position: relative;
     width: 100dvw;
-    height: 100%;
+    height: auto;
     color: var(--color6);
     text-align: center;
 }
@@ -27,6 +27,7 @@
 .txt__about {
     display: flex;
     flex-direction: column;
+    height: 100%;
     gap: 20px;
 
     padding: 50px 20px;
@@ -47,10 +48,28 @@
 
 /* Tablet */
 
-@media (min-width: 641px) {
+@media (min-width: 720px) {
     .container__about::before {
         background-image:
             linear-gradient(to bottom, #00000065, rgba(0, 0, 0, 0.500)),url('/backAboutTablet.webp');
+    }
+
+    .container__about {
+        height: 500px;
+    }
+
+    .txt__about {
+        padding: 0px;
+        justify-content: center;
+        padding:0px 80px;
+    }
+
+    .txt__about h2 {
+        font-size: 3.6rem;
+    }
+
+    .txt__about p {
+        font-size: 1.1rem;
     }
 }
 
@@ -61,4 +80,23 @@
         background-image:
             linear-gradient(to bottom, #00000065, rgba(0, 0, 0, 0.500)),url('/backAboutDesktop.webp');
     }
+
+    .container__about {
+        height: 700px;
+    }
+
+    .txt__about {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .txt__about h2 {
+        font-size: 4rem;
+    }
+
+    .txt__about p {
+        font-size: 1.6rem;
+    }
+
 }

@@ -10,7 +10,7 @@ const CardCategory = ({ nameCategory, className, backgroundImage }) => {
       className={`card__category ${className || ''}`}
       style={styleBackground}
     >
-      <div className="gradient__videoTxt">
+      <div className="gradient__Txt">
         <h3>{nameCategory}</h3>
       </div>
     </button>

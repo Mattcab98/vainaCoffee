@@ -10,7 +10,7 @@ const Footer = () => {
                     <h2 className="footer__logo"><img src="/vainaLogo.png" alt="Vaina Café" /></h2>
                 </div>
 
-                <hr class="linea-divisoria" />
+                <hr className="linea-divisoria" />
                 
                 <div className="footer__section-nav">
                     {/* <h3>Navegación</h3> */}
@@ -22,7 +22,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <hr class="linea-divisoria" />
+                <hr className="linea-divisoria" />
             </div>
 
             <div className="footer__social">
@@ -37,7 +37,7 @@ const Footer = () => {
 
             <div className="footer__bottom">
                 <p>© 2025 Vaina Café de Especialidad. Todos los derechos reservados.</p>
-                <p className="footer__credit">Diseño y desarrollo web por Matias Alvarez.
+                <p className="footer__credit">Diseño & desarrollo web - Matias Alvarez.
                 </p>
             </div>
         </footer>
