@@ -33,8 +33,6 @@ const Footer = () => {
                     <FaWhatsapp />
                 </a>
             </div>
-
-
             <div className="footer__bottom">
                 <p>© 2025 Vaina Café de Especialidad. Todos los derechos reservados.</p>
                 <p className="footer__credit">Diseño & desarrollo web - Matias Alvarez.

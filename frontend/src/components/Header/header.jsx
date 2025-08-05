@@ -3,21 +3,23 @@ import { MenuBurger } from '../utils/menuBurger/menuBurger'
 import { FaUser, FaSearch } from 'react-icons/fa';
 import { FaCartShopping } from 'react-icons/fa6';
 
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   return (
     <>
       <header className='header'>
         <nav className='nav'>
 
-          <a href='Home' className='container__logo'>
+          <Link to='/' className='container__logo'>
             <img className='logo' src="vainaLogo.png" alt="" />
-          </a>
+          </Link>
 
           <div className="nav__links">
-            <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+            <Link to='/' >Home</Link>
+            <Link to='/products' >Products</Link>
+            <Link to='/about' >About</Link>
+            <Link to='/contact' >Contact</Link>
           </div>
             <div className="contain__icons">
               <FaUser />

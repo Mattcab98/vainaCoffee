@@ -1,10 +1,11 @@
 import './App.css';
 import { Header } from './components/Header/header';
-import { Hero } from './components/Hero/Hero';
+// import { Hero } from './components/Hero/Hero';
 // import { FeaturedProducts } from './components/FeaturedProducts/FeaturedProducts';
-import { Category } from './components/category/Category';
-import { About } from './components/About/About';
+// import { Category } from './components/category/Category';
+// import { About } from './components/About/About';
 import { Footer } from './components/Footer/Footer';
+import { Outlet } from 'react-router-dom';
 
 
 
@@ -12,14 +13,17 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Hero></Hero>
-      <About />
-      {/* <FeaturedProducts /> */}
-      <Category />
-      <Footer/>
+      <div className='grid__container'>
+        <Header className='hola'/>
+        {/* <Hero/> */}
+        {/* <About /> */}
+        {/* <FeaturedProducts /> */}
+        {/* <Category /> */}
+        <Outlet />
+        <Footer />
+      </div>
     </>
   )
 }
 
-export default App
+export default App;
