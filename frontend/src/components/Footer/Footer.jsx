@@ -1,5 +1,6 @@
 import './footer.css';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
             <div className="footer__container">
 
                 <div className="footer__section-logo">
-                    <h2 className="footer__logo"><img src="/vainaLogo.png" alt="Vaina Café" /></h2>
+                    <h2 className="footer__logo"><img src="/logoVainaSombrero.png" alt="Vaina Café" /></h2>
                 </div>
 
                 <hr className="linea-divisoria" />
@@ -15,10 +16,10 @@ const Footer = () => {
                 <div className="footer__section-nav">
                     {/* <h3>Navegación</h3> */}
                     <ul>
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="/productos">Productos</a></li>
-                        <li><a href="/nosotros">Nosotros</a></li>
-                        <li><a href="/contacto">Contacto</a></li>
+                        <Link to='/'>Inicio</Link>
+                        <Link to='/products'>Productos</Link>
+                        <Link to='/about'>Nosotros</Link>
+                        <Link to='/contact'>Contacto</Link>
                     </ul>
                 </div>
 

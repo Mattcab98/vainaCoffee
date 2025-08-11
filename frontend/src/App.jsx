@@ -6,19 +6,16 @@ import { Header } from './components/Header/header';
 // import { About } from './components/About/About';
 import { Footer } from './components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
-
+import {ScrollTop} from './components/utils/scrollTop/ScrollTop'
 
 
 function App() {
 
   return (
     <>
+    <ScrollTop/>
       <div className='grid__container'>
-        <Header className='hola'/>
-        {/* <Hero/> */}
-        {/* <About /> */}
-        {/* <FeaturedProducts /> */}
-        {/* <Category /> */}
+        <Header/>
         <Outlet />
         <Footer />
       </div>

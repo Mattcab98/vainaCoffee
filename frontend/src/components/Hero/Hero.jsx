@@ -5,6 +5,8 @@ import { ButtonAction } from '../utils/buttonAction/ButtonAction';
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
 
@@ -75,7 +77,7 @@ const Hero = () => {
                         )}
                     </h2>
 
-                    <ButtonAction nameButton={'Conoce nuestras variedades'} />
+                    <Link to={'cafeEspecialidad'}><ButtonAction nameButton={'Conoce nuestras variedades'} /></Link>
                 </div>
             </div>
         </>

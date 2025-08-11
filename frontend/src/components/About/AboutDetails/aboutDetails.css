@@ -1,0 +1,59 @@
+.container__aboutDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container__aboutDetails {
+    position: relative;
+    width: 100dvw;
+    height: auto;
+    color: var(--color6);
+    text-align: center;
+}
+
+.container__aboutDetails::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: 
+    linear-gradient(to bottom, #00000065, rgba(0, 0, 0, 0.500)),
+    url('/backAboutMobile.webp');
+    background-repeat: no-repeat;
+    background-position: center -400px;
+    background-size: cover;
+
+    filter: blur(2px);
+    z-index: -1;
+}
+
+/* ---------------------------------------------- */
+
+.aboutDetails {
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+.aboutDetails h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px rgba(33, 73, 33, 0.37);
+
+}
+
+.aboutDetails h2 > span, .aboutDetails p > span{
+    color: var(--color2);
+}
+
+.card__imgAbout {
+    background-color: red;
+}
+
+.card__imgAbout img {
+}
