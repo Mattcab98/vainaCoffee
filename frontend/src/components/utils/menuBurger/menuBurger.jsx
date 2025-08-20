@@ -52,14 +52,14 @@ useEffect(() => {
 
       <div className='menu__responsive' ref={menuRef}>
         <div className="container__a">
-          <Link to={'/'} onClick={handleLinkClick} >Home</Link>
-          <Link to={'products'} onClick={handleLinkClick} >Products</Link>
-          <Link to={'about'} onClick={handleLinkClick} >About</Link>
-          <Link to={'contact'} onClick={handleLinkClick} >Contact</Link>
+          <Link to={'/'} onClick={handleLinkClick}>Home</Link>
+          <Link to={'shop'} onClick={handleLinkClick}>Products</Link>
+          <Link to={'about'} onClick={handleLinkClick}>About</Link>
+          <Link to={'contact'} onClick={handleLinkClick}>Contact</Link>
         </div>
         <div className="container__icons">
-          <FaUser />
-          <FaCartShopping />
+          <FaUser className='iconUser icon'/>
+          <FaCartShopping className='iconCartShopping icon'/>
         </div>
       </div>
     </>

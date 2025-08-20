@@ -8,7 +8,7 @@
     z-index: 100;
     color: var(--color6);
     font-size: 1.7rem;
-
+    box-shadow: 0px 8px 10px #203f30cb;
 }
 
 .container__logo {
@@ -41,6 +41,7 @@
         height: 150px;
         margin: auto;
         justify-content: space-between;
+        box-shadow: none;
 
     }
 

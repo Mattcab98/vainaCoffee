@@ -37,6 +37,10 @@
     gap: 80px;
 }
 
+.container__a a:hover, .iconUser:hover , .iconCartShopping:hover {
+  color: var(--color2);
+}
+
 @media (min-width: 720px) {
 
   .btn__burger {

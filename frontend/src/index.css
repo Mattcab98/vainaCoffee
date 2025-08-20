@@ -12,8 +12,6 @@
   --font-primary: 'Roboto Condensed', sans-serif;
 
   background-color: var(--color1);
-  
-
 }
 
 
@@ -22,5 +20,12 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  
+}
+
+.icon, .footer__logo,button,
+a,
+input[type="button"],
+input[type="submit"],
+label {
+  cursor: pointer;
 }

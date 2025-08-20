@@ -22,9 +22,9 @@ const Header = () => {
             <Link to='/contact' >Contact</Link>
           </div>
             <div className="contain__icons">
-              <FaUser />
-              <FaCartShopping />
-              <FaSearch />
+              <FaUser className="icon"/>
+              <FaCartShopping className="icon"/>
+              <FaSearch className="icon"/>
             </div>
 
 

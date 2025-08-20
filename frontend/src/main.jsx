@@ -9,7 +9,8 @@ import { AboutDetails } from './components/About/AboutDetails/AboutDetails.jsx';
 import { CafeEspecialidad } from './components/category/cafeEspecialidad/CafeEspecialidad.jsx';
 import { Cafeteras} from './components/category/cafeteras/Cafeteras.jsx'
 import { HomeDeco} from './components/category/homeDeco/HomeDeco.jsx'
-
+import { Shop } from './components/Shop/Shop.jsx';
+import { Contact } from './components/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: 'homeDeco',
         element: <HomeDeco/>
+      },
+      {
+        path: 'Shop',
+        element: <Shop/>
+      },
+      {
+        path: 'contact',
+        element: <Contact/>
       },
     ]
   },
